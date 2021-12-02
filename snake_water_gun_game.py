@@ -1,7 +1,6 @@
 from random import choice 
 
-user = input("\nEnter Your Name : ")
-name = user.capitalize()
+name = input("\nEnter Your Name : ").capitalize()
 
 def scorewrite():
     """This function write the score in txt file"""
